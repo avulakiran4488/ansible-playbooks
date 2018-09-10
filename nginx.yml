@@ -54,7 +54,7 @@
     - name: Add ufw rule
       sudo: yes
       command: ufw allow 80,443/tcp
-      # Note: ufw isn't enabled at this point
+      # Note: ufw isn't enabled at this point.
 
     - name: Start nginx
       command: start nginx
